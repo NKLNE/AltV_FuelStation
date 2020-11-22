@@ -1,0 +1,10 @@
+[21:15:12] alt:V Server, build #1301, branch release
+[21:15:12] Starting alt:V Server on 0.0.0.0:7788
+[21:15:12] Starting HTTP server on 0.0.0.0:7788
+[21:15:12] Console thread started (ThreadId: 4056)
+[21:15:12] Main thread started (ThreadId: 13680)
+[21:15:12] Colshape thread started (ThreadId: 12296)
+[21:15:12] EntityStreamer thread started (ThreadId: 8132)
+[21:15:12] Network thread started (ThreadId: 2164)
+[21:15:12] Server started
+[21:15:30] Server shutdown
