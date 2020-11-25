@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../gerneral_css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="./css/style.css"></link>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+</head>
+
+<body  style="background-color:  rgba(255, 255, 255, 0); color:white;" onload="loadingFuel()">
+
+<div style=" margin-top:15%; margin-left:34%;height:500px; width:700px;">
+    <div id="frame"  style="background-color: rgba(0, 0, 0, 0.7); ">
+
+
+        <div class="input-group mb-3" style="padding-bottom: 100px;padding-top:100px; padding-left: 40px; padding-right: 40px;">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Tank Inhalt:</span>
+            </div>
+            <input id="fuelfeld"  type="text" class="form-control" placeholder="----" aria-describedby="basic-addon1" disabled>
+          </div>
+
+
+        
+    </div>
+<div id="buttonBox" style="margin-top:-16px;">
+        <button  class="btn btn-primary" style="width: 350px; margin-right: -5px; border-radius: 0; border-bottom-left-radius: 5px; border-right-color: black;"  onmouseup="stoptimer()" onmousedown="starttimer()" >Tanken (gedrückt halten)</button>
+        <button class="btn btn-primary"  style="width: 350px; border-radius: 0; border-bottom-right-radius: 5px;" onclick="closepage();">Schließen</button>
+    </div>
+</div>   
+    <script src="./main.js"></script>
+</body>
+</html>
